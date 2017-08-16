@@ -1,4 +1,10 @@
 ﻿<metadata>
+
+  <!-- Normalize the namespace for .NET -->
+  <attr path="/api/package[@name='com.zqc.opencc.android.lib']"
+      name="managedName">OpenCC</attr>
+
+
   <!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
